@@ -494,12 +494,14 @@ html{
         width: 50px;
         height: 50px;
         margin-right: 10px;
+        object-fit: cover;
     }
     
-    .post-info span {
+     .post-info span {
         display: block;
         font-size: 0.8em;
         color: #666;
+        text-align:left
     }
     
     .btn {
@@ -539,4 +541,4 @@ html{
         font-size: 0.8em;
         color: #666;
     }
-   
+

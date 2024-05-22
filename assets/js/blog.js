@@ -70,7 +70,7 @@ function prevSlide() {
   showSlides();
 }
 
-showSlides();
+
 
 
 
@@ -107,7 +107,7 @@ document.addEventListener('DOMContentLoaded', () => {
       });
   }
 
-  // Set the initial active button
+
   updateActiveButton();
 });
 

@@ -542,3 +542,31 @@ html{
         color: #666;
     }
 
+    .sidebar-section h3 {
+        margin-top: 0;
+        font-size: 1.2em;
+        color: #333;
+        border-bottom: 1px solid #ddd;
+        padding-bottom: 10px;
+    }
+    
+    .twitter-feed .tweet {
+        margin-bottom: 15px;
+    }
+    
+    .twitter-feed i {
+        color: red;
+        font-size: 1.2em;
+        margin-right: 5px;
+    }
+    
+    .twitter-feed .twitter-handle {
+        color: red;
+        font-weight: bold;
+    }
+    
+    .twitter-feed .tweet-time {
+        color: #999;
+        font-size: 0.8em;
+        margin-top: 5px;
+    }

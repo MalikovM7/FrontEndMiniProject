@@ -103,6 +103,8 @@ html{
         border-radius: 5px;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         margin-bottom: 20px;
+        width: 100%;
+        margin-left: 10px;
     }
     
     .video-header {
@@ -124,7 +126,7 @@ html{
         cursor: pointer;
     }
     
-    .video-post h2 {
+    .post h2 {
         margin: 20px 0 10px;
         font-size: 1.8em;
     }
@@ -139,7 +141,7 @@ html{
         margin-right: 10px;
     }
     
-    .video-post p {
+    .post p {
         font-size: 1em;
         color: #333;
     }
@@ -159,3 +161,110 @@ html{
         background: #333;
     }
 
+
+
+    .post {
+        
+        background-color: white;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.268);
+        border-radius: 8px;
+        overflow: hidden;
+        max-width: 100%;
+        width: 100%;
+    }
+    
+    .post-image img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+    
+    .post-content {
+        padding: 20px;
+    }
+    
+    .post-title {
+        font-size: 24px;
+        margin: 0 0 10px;
+    }
+    
+    .post-meta {
+        color: #888;
+        font-size: 14px;
+        margin: 0 0 20px;
+    }
+    
+    .post-text {
+        color: #333;
+        font-size: 16px;
+        line-height: 1.6;
+    }
+
+
+
+
+
+
+
+
+
+
+
+.slider-post{
+
+
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.268);
+    border-radius: 8px;
+    overflow: hidden;
+    max-width: 100%;
+    width: 100%;
+
+}
+    .slider {
+    
+        position: relative;
+        margin: 0 auto;
+        margin-top: 200px;
+        width: 50%;
+        overflow: hidden;
+    
+      }
+      
+      .slides {
+        
+        display: flex;
+        transition: transform 0.5s ease;
+        width: 100%;
+        max-width: 100%;
+        
+      }
+      
+      .slides img {
+       
+        min-width: 100%;
+        height: auto;
+        display: block;
+
+      }
+      
+      .slider button {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        background: transparent;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        font-size: 24px;
+        z-index: 2;
+      }
+      
+      .prev {
+        left: 0;
+      }
+      
+      .next {
+        right: 0;
+      }
+    

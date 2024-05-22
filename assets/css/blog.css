@@ -1,0 +1,161 @@
+html{
+
+    scroll-behavior: smooth;
+    
+    
+    }
+    
+    
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+    }
+
+
+    .headof {
+        
+        text-align: center;
+        margin-top: 80px;
+        margin-bottom: 20px;
+
+    }
+    
+    .headof h1 {
+        display: flex;
+        justify-content: end;
+        margin: 0;
+        font-size: 70px;
+        font-weight: 700;
+        color: #777;
+    }
+    
+    .nav1 {
+        display: flex;
+        justify-content: end;
+        margin-top: 10px;
+    }
+    
+    .nav1 a {
+        text-decoration: none;
+        color: #555;
+        margin: 0 5px;
+    }
+
+
+
+
+
+    .container-main{
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+
+    .content {
+        display: flex;
+    }
+    
+    .sidebar {
+        width: 25%;
+        padding-right: 20px;
+    }
+    
+    .sidebar .search input {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 20px;
+    }
+    
+    .sidebar .categories {
+        background: #f9f9f9;
+        padding: 10px;
+        border-radius: 5px;
+    }
+    
+    .sidebar .categories h2 {
+        margin: 0;
+        margin-bottom: 10px;
+        font-size: 1.2em;
+    }
+    
+    .sidebar .categories ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+    
+    .sidebar .categories ul li {
+        padding: 5px 0;
+    }
+    
+    .sidebar .categories ul li ul {
+        padding-left: 20px;
+    }
+    
+    .main-content {
+        width: 75%;
+    }
+    
+    .video-post {
+        background: #fff;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        margin-bottom: 20px;
+    }
+    
+    .video-header {
+        position: relative;
+    }
+    
+    .video-header img {
+        max-width: 100%;
+        border-radius: 5px;
+    }
+    
+    .play-button {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 68px;
+        height: 48px;
+        cursor: pointer;
+    }
+    
+    .video-post h2 {
+        margin: 20px 0 10px;
+        font-size: 1.8em;
+    }
+    
+    .post-meta {
+        color: #777;
+        font-size: 0.9em;
+        margin-bottom: 20px;
+    }
+    
+    .post-meta span {
+        margin-right: 10px;
+    }
+    
+    .video-post p {
+        font-size: 1em;
+        color: #333;
+    }
+    
+    .read-more {
+        display: inline-block;
+        padding: 10px 20px;
+        background: #000;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background 0.3s;
+    }
+    
+    .read-more:hover {
+        background: #333;
+    }
+

@@ -345,3 +345,198 @@ html{
     .quote-section .read-more:hover {
         background-color: #f0f0f0;
     }
+
+
+
+
+
+
+    .pagination {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 20px 0;
+    }
+    
+    .pagination-btn {
+        border: 1px solid #ccc;
+        padding: 10px 15px;
+        margin: 0 5px;
+        background-color: #fff;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+    
+    .pagination-btn:hover {
+        background-color: #f0f0f0;
+    }
+    
+    .pagination-btn.active {
+        background-color: #eee;
+        font-weight: bold;
+    }
+
+
+
+
+
+
+
+
+    .sidebar-section {
+        margin-bottom: 20px;
+        background-color: #fff;
+        border: 1px solid #ddd;
+        padding: 15px;
+    }
+    
+    .sidebar-section h3 {
+        margin-top: 0;
+        font-size: 1.2em;
+        color: #333;
+        border-bottom: 1px solid #ddd;
+        padding-bottom: 10px;
+    }
+    
+    .reservation-detail h4, .helping-center p {
+        font-size: 1em;
+        margin: 10px 0;
+    }
+    
+    .reservation-detail p {
+        font-size: 0.9em;
+        color: #666;
+    }
+    
+    .btn {
+        display: inline-block;
+        padding: 10px 15px;
+        color: #fff;
+        background-color: #333;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        text-align: center;
+        margin-top: 10px;
+    }
+    
+    .btn:hover {
+        background-color: #555;
+    }
+    
+    .testimonials p {
+        font-size: 0.9em;
+        color: #666;
+        margin: 10px 0;
+    }
+    
+    .testimonial-dots {
+        text-align: center;
+        margin-top: 10px;
+    }
+    
+    .dot {
+        display: inline-block;
+        width: 10px;
+        height: 10px;
+        margin: 0 3px;
+        background-color: #ccc;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+    
+    .dot.active, .dot:hover {
+        background-color: #333;
+    }
+
+
+
+
+
+
+
+
+    .tab-header {
+        display: flex;
+        border-bottom: 2px solid #ddd;
+    }
+    
+    .tab-button {
+        flex: 1;
+        padding: 10px;
+        cursor: pointer;
+        background-color: #f9f9f9;
+        border: none;
+        text-align: center;
+    }
+    
+    .tab-button.active {
+        background-color: #333;
+        color: white;
+        border-bottom: 2px solid red;
+    }
+    
+    .tab-content .tab-pane {
+        display: none;
+        padding: 10px 0;
+    }
+    
+    .tab-content .tab-pane.active {
+        display: block;
+    }
+    
+    .post-item {
+        display: flex;
+        margin-bottom: 10px;
+    }
+    
+    .post-item img {
+        width: 50px;
+        height: 50px;
+        margin-right: 10px;
+    }
+    
+    .post-info span {
+        display: block;
+        font-size: 0.8em;
+        color: #666;
+    }
+    
+    .btn {
+        display: inline-block;
+        padding: 10px 15px;
+        color: #fff;
+        background-color: #333;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        text-align: center;
+        margin-top: 10px;
+        width: 100%;
+    }
+    
+    .btn:hover {
+        background-color: #555;
+    }
+    
+    .archives-list {
+        list-style: none;
+        padding: 0;
+    }
+    
+    .archives-list > li {
+        margin-bottom: 10px;
+        font-size: 0.9em;
+        cursor: pointer;
+    }
+    
+    .archives-list > li > ul {
+        list-style: none;
+        padding-left: 20px;
+    }
+    
+    .archives-list > li > ul > li {
+        font-size: 0.8em;
+        color: #666;
+    }
+   

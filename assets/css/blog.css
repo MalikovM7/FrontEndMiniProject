@@ -210,15 +210,16 @@ html{
 
 
 
-.slider-post{
+.slide-post{
 
 
-    background-color: white;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.268);
-    border-radius: 8px;
-    overflow: hidden;
-    max-width: 100%;
-    width: 100%;
+        background-color: white;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.268);
+        border-radius: 8px;
+        overflow: hidden;
+        max-width: 100%;
+        width: 100%;
+        margin-left: 10px;
 
 }
     .slider {
@@ -228,7 +229,9 @@ html{
         margin-top: 200px;
         width: 50%;
         overflow: hidden;
-    
+        width: 100%; 
+        height: 50%;
+        
       }
       
       .slides {
@@ -237,14 +240,19 @@ html{
         transition: transform 0.5s ease;
         width: 100%;
         max-width: 100%;
+        height: 100%;
         
       }
       
       .slides img {
        
-        min-width: 100%;
-        height: auto;
+        /* min-width: 100%; */
+        
         display: block;
+        width: 100%; 
+        height: 100%; 
+        object-fit: cover;
+        
 
       }
       
@@ -268,3 +276,72 @@ html{
         right: 0;
       }
     
+
+
+
+
+
+
+
+
+      .quote-section {
+        background-color: #111;
+        color: white;
+        padding: 20px;
+        position: relative;
+        margin-bottom: 20px;
+    }
+
+    .quote-section::before {
+        content: "";
+        display: block;
+        height: 4px;
+        background-color: red;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+    }
+
+    .quote-section blockquote {
+        margin: 0;
+        padding-left: 20px;
+        font-size: 1.2em;
+        border-left: 5px solid red;
+    }
+
+    .quote-section blockquote::before {
+        content: open-quote;
+    }
+
+    .quote-section blockquote::after {
+        content: close-quote;
+    }
+
+    .quote-section cite {
+        display: block;
+        text-align: right;
+        margin-top: 10px;
+        font-style: normal;
+        color: #ccc;
+    }
+
+    .quote-section .post-meta {
+        font-size: 0.9em;
+        color: #666;
+        margin-bottom: 20px;
+    }
+
+    .quote-section .read-more {
+        background-color: #fff;
+        border: 1px solid #ccc;
+        padding: 10px 20px;
+        text-decoration: none;
+        color: #333;
+        display: inline-block;
+        border-radius: 4px;
+    }
+
+    .quote-section .read-more:hover {
+        background-color: #f0f0f0;
+    }
